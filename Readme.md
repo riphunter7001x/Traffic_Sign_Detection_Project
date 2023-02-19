@@ -21,7 +21,7 @@ To use the traffic sign detection system, follow these steps:
 -Clone the repository and install the required dependencies.\
 -Download the pre-trained CNN model and place it in the models     folder.\
 -The model can be trained using Google Colab, by following the instructions in the train_model.ipynb notebook.\
--For more detailed instructions, please refer to the documentation in the docs folder.\
+-For more detailed instructions, please refer to the documentation in the docs folder.
 
 ## Contributing
 Contributions are welcome and encouraged! If you would like to contribute to this project, please open a pull request and provide a detailed description of your changes.

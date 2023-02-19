@@ -4,10 +4,10 @@
 This project is a computer vision application that uses deep learning techniques to detect and classify traffic signs in real-time. The system can be used to improve road safety and assist autonomous vehicles in identifying and interpreting road signs.
 
 ## Features
-Real-time traffic sign detection and classification using a convolutional neural network (CNN).\
-Support for multiple traffic sign classes, including stop, yield, speed limit, and no entry signs.\
-Automatic image preprocessing and feature extraction to improve detection accuracy.\
-Easy integration with existing systems through a RESTful API.
+-Real-time traffic sign detection and classification using a convolutional neural network (CNN).\
+-Support for multiple traffic sign classes, including stop, yield, speed limit, and no entry signs.\
+-Automatic image preprocessing and feature extraction to improve detection accuracy.\
+-Easy integration with existing systems through a RESTful API.
 
 ## Requirements
 Python 3.x\

@@ -1,4 +1,4 @@
-<!-- Traffic Sign Detection Project -->
+Traffic Sign Detection Project
 This project is a computer vision application that uses deep learning techniques to detect and classify traffic signs in real-time. The system can be used to improve road safety and assist autonomous vehicles in identifying and interpreting road signs.
 
 Features

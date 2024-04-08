@@ -1,0 +1,620 @@
+2024-04-02 21:52:55,425 - INFO - Starting traffic sign detection application...
+2024-04-02 21:53:21,620 - INFO - Loading model...
+2024-04-02 21:53:21,863 - INFO - model loaded successfully.
+2024-04-02 21:53:26,082 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:53:26,082 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:53:48,196 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:53:48,197 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:53:50,919 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:53:50,920 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:53:57,391 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:53:57,391 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:53:58,983 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:53:58,983 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:53:59,363 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:53:59,363 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:54:00,120 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:54:00,120 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:54:03,811 - INFO - Traffic sign detection application finished.
+2024-04-02 22:11:20,280 - INFO - Starting traffic sign detection application...
+2024-04-02 22:11:46,130 - INFO - Loading model...
+2024-04-02 22:11:46,397 - INFO - model loaded successfully.
+2024-04-02 22:11:59,276 - DEBUG - text: ROUNDABOUT a head
+2024-04-02 22:11:59,276 - DEBUG - tld: com
+2024-04-02 22:11:59,276 - DEBUG - lang: en
+2024-04-02 22:11:59,276 - DEBUG - slow: False
+2024-04-02 22:11:59,276 - DEBUG - lang_check: True
+2024-04-02 22:11:59,276 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:11:59,276 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:11:59,277 - DEBUG - timeout: None
+2024-04-02 22:11:59,277 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:11:59,277 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:11:59,278 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:11:59,278 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:11:59,279 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:11:59,279 - DEBUG - text_parts: ['ROUNDABOUT a head']
+2024-04-02 22:11:59,279 - DEBUG - text_parts: 1
+2024-04-02 22:11:59,279 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22ROUNDABOUT%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:04,357 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '151'}
+2024-04-02 22:12:04,357 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:04,357 - DEBUG - status-0: 200
+2024-04-02 22:12:04,358 - DEBUG - part-0 written to <_io.BufferedWriter name='ROUNDABOUT.mp3'>
+2024-04-02 22:12:04,358 - DEBUG - part-0 created
+2024-04-02 22:12:04,362 - DEBUG - Saved to ROUNDABOUT.mp3
+2024-04-02 22:12:06,103 - INFO - Audio played for detected class: ROUNDABOUT
+2024-04-02 22:12:15,264 - DEBUG - text: SLIPPERY ROAD a head
+2024-04-02 22:12:15,265 - DEBUG - tld: com
+2024-04-02 22:12:15,265 - DEBUG - lang: en
+2024-04-02 22:12:15,265 - DEBUG - slow: False
+2024-04-02 22:12:15,265 - DEBUG - lang_check: True
+2024-04-02 22:12:15,265 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:12:15,265 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:12:15,265 - DEBUG - timeout: None
+2024-04-02 22:12:15,265 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:12:15,266 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:12:15,266 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:12:15,266 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:12:15,266 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:12:15,266 - DEBUG - text_parts: ['SLIPPERY ROAD a head']
+2024-04-02 22:12:15,266 - DEBUG - text_parts: 1
+2024-04-02 22:12:15,266 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22SLIPPERY%20ROAD%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:17,711 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '156'}
+2024-04-02 22:12:17,712 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:17,712 - DEBUG - status-0: 200
+2024-04-02 22:12:17,712 - DEBUG - part-0 written to <_io.BufferedWriter name='SLIPPERY ROAD.mp3'>
+2024-04-02 22:12:17,713 - DEBUG - part-0 created
+2024-04-02 22:12:17,718 - DEBUG - Saved to SLIPPERY ROAD.mp3
+2024-04-02 22:12:19,582 - INFO - Audio played for detected class: SLIPPERY_ROAD
+2024-04-02 22:12:20,043 - DEBUG - text: GAP IN MEDIAN a head
+2024-04-02 22:12:20,043 - DEBUG - tld: com
+2024-04-02 22:12:20,044 - DEBUG - lang: en
+2024-04-02 22:12:20,044 - DEBUG - slow: False
+2024-04-02 22:12:20,044 - DEBUG - lang_check: True
+2024-04-02 22:12:20,044 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:12:20,044 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:12:20,044 - DEBUG - timeout: None
+2024-04-02 22:12:20,044 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:12:20,045 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:12:20,045 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:12:20,045 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:12:20,046 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:12:20,046 - DEBUG - text_parts: ['GAP IN MEDIAN a head']
+2024-04-02 22:12:20,046 - DEBUG - text_parts: 1
+2024-04-02 22:12:20,046 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22GAP%20IN%20MEDIAN%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:22,642 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-04-02 22:12:22,642 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:22,642 - DEBUG - status-0: 200
+2024-04-02 22:12:22,643 - DEBUG - part-0 written to <_io.BufferedWriter name='GAP IN MEDIAN.mp3'>
+2024-04-02 22:12:22,643 - DEBUG - part-0 created
+2024-04-02 22:12:22,648 - DEBUG - Saved to GAP IN MEDIAN.mp3
+2024-04-02 22:12:24,722 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 22:12:30,840 - DEBUG - text: HUMP OR ROUGH ROAD a head
+2024-04-02 22:12:30,841 - DEBUG - tld: com
+2024-04-02 22:12:30,841 - DEBUG - lang: en
+2024-04-02 22:12:30,841 - DEBUG - slow: False
+2024-04-02 22:12:30,841 - DEBUG - lang_check: True
+2024-04-02 22:12:30,841 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:12:30,841 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:12:30,841 - DEBUG - timeout: None
+2024-04-02 22:12:30,841 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:12:30,842 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:12:30,842 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:12:30,842 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:12:30,843 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:12:30,843 - DEBUG - text_parts: ['HUMP OR ROUGH ROAD a head']
+2024-04-02 22:12:30,843 - DEBUG - text_parts: 1
+2024-04-02 22:12:30,843 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22HUMP%20OR%20ROUGH%20ROAD%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:34,621 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '165'}
+2024-04-02 22:12:34,621 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:34,622 - DEBUG - status-0: 200
+2024-04-02 22:12:34,622 - DEBUG - part-0 written to <_io.BufferedWriter name='HUMP OR ROUGH ROAD.mp3'>
+2024-04-02 22:12:34,623 - DEBUG - part-0 created
+2024-04-02 22:12:34,627 - DEBUG - Saved to HUMP OR ROUGH ROAD.mp3
+2024-04-02 22:12:37,304 - INFO - Audio played for detected class: HUMP_OR_ROUGH_ROAD
+2024-04-02 22:12:43,911 - DEBUG - text: COMPULSARY AHEAD OR TURN RIGHT a head
+2024-04-02 22:12:43,911 - DEBUG - tld: com
+2024-04-02 22:12:43,911 - DEBUG - lang: en
+2024-04-02 22:12:43,911 - DEBUG - slow: False
+2024-04-02 22:12:43,911 - DEBUG - lang_check: True
+2024-04-02 22:12:43,911 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:12:43,911 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:12:43,911 - DEBUG - timeout: None
+2024-04-02 22:12:43,912 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:12:43,912 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:12:43,912 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:12:43,913 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:12:43,913 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:12:43,913 - DEBUG - text_parts: ['COMPULSARY AHEAD OR TURN RIGHT a head']
+2024-04-02 22:12:43,913 - DEBUG - text_parts: 1
+2024-04-02 22:12:43,913 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20AHEAD%20OR%20TURN%20RIGHT%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:46,500 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '179'}
+2024-04-02 22:12:46,500 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:46,500 - DEBUG - status-0: 200
+2024-04-02 22:12:46,502 - DEBUG - part-0 written to <_io.BufferedWriter name='COMPULSARY AHEAD OR TURN RIGHT.mp3'>
+2024-04-02 22:12:46,502 - DEBUG - part-0 created
+2024-04-02 22:12:46,507 - DEBUG - Saved to COMPULSARY AHEAD OR TURN RIGHT.mp3
+2024-04-02 22:12:49,884 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-02 22:12:55,696 - DEBUG - text: TRAFFIC SIGNAL a head
+2024-04-02 22:12:55,696 - DEBUG - tld: com
+2024-04-02 22:12:55,696 - DEBUG - lang: en
+2024-04-02 22:12:55,696 - DEBUG - slow: False
+2024-04-02 22:12:55,696 - DEBUG - lang_check: True
+2024-04-02 22:12:55,696 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000027DD034E9E0>, <function end_of_line at 0x0000027DD034F1C0>, <function abbreviations at 0x0000027DD034F250>, <function word_sub at 0x0000027DD034F2E0>]
+2024-04-02 22:12:55,696 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\uff0c|¡|\u3002|\uff1a|\u060c|\\[|;|\\)|\u2025|\\\n|…|\u3001|¿|\\(|—', re.IGNORECASE) from: [<function tone_marks at 0x0000027DD034F370>, <function period_comma at 0x0000027DD034F5B0>, <function colon at 0x0000027DD034F640>, <function other_punctuation at 0x0000027DD034F6D0>]>
+2024-04-02 22:12:55,697 - DEBUG - timeout: None
+2024-04-02 22:12:55,697 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-02 22:12:55,698 - DEBUG - pre-processing: <function tone_marks at 0x0000027DD034E9E0>
+2024-04-02 22:12:55,698 - DEBUG - pre-processing: <function end_of_line at 0x0000027DD034F1C0>
+2024-04-02 22:12:55,698 - DEBUG - pre-processing: <function abbreviations at 0x0000027DD034F250>
+2024-04-02 22:12:55,698 - DEBUG - pre-processing: <function word_sub at 0x0000027DD034F2E0>
+2024-04-02 22:12:55,698 - DEBUG - text_parts: ['TRAFFIC SIGNAL a head']
+2024-04-02 22:12:55,699 - DEBUG - text_parts: 1
+2024-04-02 22:12:55,699 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22TRAFFIC%20SIGNAL%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-02 22:12:58,993 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '157'}
+2024-04-02 22:12:58,994 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-02 22:12:58,994 - DEBUG - status-0: 200
+2024-04-02 22:12:58,995 - DEBUG - part-0 written to <_io.BufferedWriter name='TRAFFIC SIGNAL.mp3'>
+2024-04-02 22:12:58,995 - DEBUG - part-0 created
+2024-04-02 22:12:59,000 - DEBUG - Saved to TRAFFIC SIGNAL.mp3
+2024-04-02 22:13:00,928 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 22:13:02,090 - INFO - Traffic sign detection application finished.
+2024-04-02 22:24:34,207 - INFO - Starting traffic sign detection application...
+2024-04-02 22:24:58,606 - INFO - Loading model...
+2024-04-02 22:24:58,974 - INFO - model loaded successfully.
+2024-04-02 22:25:05,541 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 22:25:27,351 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-02 22:25:36,884 - INFO - Audio played for detected class: HUMP_OR_ROUGH_ROAD
+2024-04-02 22:25:47,309 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 22:25:52,931 - INFO - Audio played for detected class: ROUNDABOUT
+2024-04-02 22:25:56,584 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 22:26:33,166 - INFO - Audio played for detected class: ROUNDABOUT
+2024-04-02 22:26:35,563 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 22:26:46,822 - INFO - Traffic sign detection application finished.
+2024-04-03 18:38:28,841 - INFO - Starting traffic sign detection application...
+2024-04-03 18:38:48,135 - INFO - Loading model...
+2024-04-03 18:38:48,338 - INFO - model loaded successfully.
+2024-04-03 18:38:56,979 - DEBUG - text: FALLING ROCKS a head
+2024-04-03 18:38:56,979 - DEBUG - tld: com
+2024-04-03 18:38:56,980 - DEBUG - lang: en
+2024-04-03 18:38:56,980 - DEBUG - slow: False
+2024-04-03 18:38:56,980 - DEBUG - lang_check: True
+2024-04-03 18:38:56,980 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x00000211270469E0>, <function end_of_line at 0x00000211270471C0>, <function abbreviations at 0x0000021127047250>, <function word_sub at 0x00000211270472E0>]
+2024-04-03 18:38:56,980 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|\u3001|;|\u3002|\uff0c|\\\n|¿|\uff1a|\u060c|\\]|\u2025|¡|\\)|…|—|\\[', re.IGNORECASE) from: [<function tone_marks at 0x0000021127047370>, <function period_comma at 0x00000211270475B0>, <function colon at 0x0000021127047640>, <function other_punctuation at 0x00000211270476D0>]>
+2024-04-03 18:38:56,980 - DEBUG - timeout: None
+2024-04-03 18:38:56,980 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-03 18:38:56,980 - DEBUG - pre-processing: <function tone_marks at 0x00000211270469E0>
+2024-04-03 18:38:56,981 - DEBUG - pre-processing: <function end_of_line at 0x00000211270471C0>
+2024-04-03 18:38:56,981 - DEBUG - pre-processing: <function abbreviations at 0x0000021127047250>
+2024-04-03 18:38:56,982 - DEBUG - pre-processing: <function word_sub at 0x00000211270472E0>
+2024-04-03 18:38:56,982 - DEBUG - text_parts: ['FALLING ROCKS a head']
+2024-04-03 18:38:56,982 - DEBUG - text_parts: 1
+2024-04-03 18:38:56,982 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22FALLING%20ROCKS%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-03 18:38:58,085 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '156'}
+2024-04-03 18:38:58,085 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-03 18:38:58,085 - DEBUG - status-0: 200
+2024-04-03 18:38:58,085 - DEBUG - part-0 written to <_io.BufferedWriter name='FALLING ROCKS.mp3'>
+2024-04-03 18:38:58,085 - DEBUG - part-0 created
+2024-04-03 18:38:58,087 - DEBUG - Saved to FALLING ROCKS.mp3
+2024-04-03 18:38:59,811 - INFO - Audio played for detected class: FALLING_ROCKS
+2024-04-03 18:39:22,804 - INFO - Traffic sign detection application finished.
+2024-04-03 18:51:01,446 - INFO - Starting traffic sign detection application...
+2024-04-03 18:51:16,182 - INFO - Loading model...
+2024-04-03 18:51:16,442 - INFO - model loaded successfully.
+2024-04-03 18:54:08,211 - INFO - Starting traffic sign detection application...
+2024-04-03 18:54:23,344 - INFO - Loading model...
+2024-04-03 18:54:23,523 - INFO - model loaded successfully.
+2024-04-03 18:54:30,640 - DEBUG - text: COMPULSARY TURN RIGHT AHEAD a head
+2024-04-03 18:54:30,640 - DEBUG - tld: com
+2024-04-03 18:54:30,640 - DEBUG - lang: en
+2024-04-03 18:54:30,640 - DEBUG - slow: False
+2024-04-03 18:54:30,640 - DEBUG - lang_check: True
+2024-04-03 18:54:30,640 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001B8F353E9E0>, <function end_of_line at 0x000001B8F353F1C0>, <function abbreviations at 0x000001B8F353F250>, <function word_sub at 0x000001B8F353F2E0>]
+2024-04-03 18:54:30,640 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\u060c|\u2025|\\)|…|¡|\u3002|;|\uff1a|—|¿|\\(|\\]|\uff0c|\\\n|\u3001|\\[', re.IGNORECASE) from: [<function tone_marks at 0x000001B8F353F370>, <function period_comma at 0x000001B8F353F5B0>, <function colon at 0x000001B8F353F640>, <function other_punctuation at 0x000001B8F353F6D0>]>
+2024-04-03 18:54:30,640 - DEBUG - timeout: None
+2024-04-03 18:54:30,640 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-03 18:54:30,641 - DEBUG - pre-processing: <function tone_marks at 0x000001B8F353E9E0>
+2024-04-03 18:54:30,641 - DEBUG - pre-processing: <function end_of_line at 0x000001B8F353F1C0>
+2024-04-03 18:54:30,641 - DEBUG - pre-processing: <function abbreviations at 0x000001B8F353F250>
+2024-04-03 18:54:30,642 - DEBUG - pre-processing: <function word_sub at 0x000001B8F353F2E0>
+2024-04-03 18:54:30,642 - DEBUG - text_parts: ['COMPULSARY TURN RIGHT AHEAD a head']
+2024-04-03 18:54:30,642 - DEBUG - text_parts: 1
+2024-04-03 18:54:30,643 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20TURN%20RIGHT%20AHEAD%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-03 18:54:32,875 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '174'}
+2024-04-03 18:54:32,875 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-03 18:54:32,875 - DEBUG - status-0: 200
+2024-04-03 18:54:32,876 - DEBUG - part-0 written to <_io.BufferedWriter name='COMPULSARY TURN RIGHT AHEAD.mp3'>
+2024-04-03 18:54:32,876 - DEBUG - part-0 created
+2024-04-03 18:54:32,878 - DEBUG - Saved to COMPULSARY TURN RIGHT AHEAD.mp3
+2024-04-03 18:54:35,713 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-03 18:54:39,355 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-03 18:54:47,691 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-03 18:55:03,573 - INFO - Traffic sign detection application finished.
+2024-04-04 16:22:08,770 - INFO - Starting traffic sign detection application...
+2024-04-04 16:22:24,181 - INFO - Loading model...
+2024-04-04 16:22:24,417 - INFO - model loaded successfully.
+2024-04-04 16:24:45,616 - INFO - Audio played for detected class: ROUNDABOUT
+2024-04-04 16:24:49,439 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-04 16:24:50,180 - DEBUG - text: GUARDED LEVEL CROSSING a head
+2024-04-04 16:24:50,181 - DEBUG - tld: com
+2024-04-04 16:24:50,181 - DEBUG - lang: en
+2024-04-04 16:24:50,181 - DEBUG - slow: False
+2024-04-04 16:24:50,181 - DEBUG - lang_check: True
+2024-04-04 16:24:50,181 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000015643DB69E0>, <function end_of_line at 0x0000015643DB71C0>, <function abbreviations at 0x0000015643DB7250>, <function word_sub at 0x0000015643DB72E0>]
+2024-04-04 16:24:50,181 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\(|¡|\uff1a|\u2025|\\]|\u3002|;|\u060c|\uff0c|\\)|—|¿|\u3001|\\\n|…|\\[', re.IGNORECASE) from: [<function tone_marks at 0x0000015643DB7370>, <function period_comma at 0x0000015643DB75B0>, <function colon at 0x0000015643DB7640>, <function other_punctuation at 0x0000015643DB76D0>]>
+2024-04-04 16:24:50,182 - DEBUG - timeout: None
+2024-04-04 16:24:50,183 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-04 16:24:50,186 - DEBUG - pre-processing: <function tone_marks at 0x0000015643DB69E0>
+2024-04-04 16:24:50,199 - DEBUG - pre-processing: <function end_of_line at 0x0000015643DB71C0>
+2024-04-04 16:24:50,199 - DEBUG - pre-processing: <function abbreviations at 0x0000015643DB7250>
+2024-04-04 16:24:50,200 - DEBUG - pre-processing: <function word_sub at 0x0000015643DB72E0>
+2024-04-04 16:24:50,200 - DEBUG - text_parts: ['GUARDED LEVEL CROSSING a head']
+2024-04-04 16:24:50,201 - DEBUG - text_parts: 1
+2024-04-04 16:24:50,202 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22GUARDED%20LEVEL%20CROSSING%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-04 16:24:51,955 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '167'}
+2024-04-04 16:24:51,955 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-04 16:24:51,955 - DEBUG - status-0: 200
+2024-04-04 16:24:51,960 - DEBUG - part-0 written to <_io.BufferedWriter name='GUARDED LEVEL CROSSING.mp3'>
+2024-04-04 16:24:51,961 - DEBUG - part-0 created
+2024-04-04 16:24:51,963 - DEBUG - Saved to GUARDED LEVEL CROSSING.mp3
+2024-04-04 16:24:54,388 - INFO - Audio played for detected class: GUARDED_LEVEL_CROSSING
+2024-04-04 16:24:59,530 - INFO - Audio played for detected class: HUMP_OR_ROUGH_ROAD
+2024-04-04 16:25:04,885 - INFO - Audio played for detected class: GUARDED_LEVEL_CROSSING
+2024-04-04 16:25:28,134 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-04 16:25:39,848 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-04 16:25:46,828 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-04 16:25:52,335 - INFO - Traffic sign detection application finished.
+2024-04-04 16:43:16,726 - INFO - Starting traffic sign detection application...
+2024-04-04 16:43:32,266 - INFO - Loading model...
+2024-04-04 16:43:32,559 - INFO - model loaded successfully.
+2024-04-04 16:43:41,844 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-04 16:43:47,096 - INFO - Audio played for detected class: FALLING_ROCKS
+2024-04-04 16:43:57,782 - INFO - Audio played for detected class: HUMP_OR_ROUGH_ROAD
+2024-04-04 16:44:19,666 - DEBUG - text: NARROW ROAD AHEAD a head
+2024-04-04 16:44:19,667 - DEBUG - tld: com
+2024-04-04 16:44:19,667 - DEBUG - lang: en
+2024-04-04 16:44:19,667 - DEBUG - slow: False
+2024-04-04 16:44:19,667 - DEBUG - lang_check: True
+2024-04-04 16:44:19,667 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000002B5DC7529E0>, <function end_of_line at 0x000002B5DC7531C0>, <function abbreviations at 0x000002B5DC753250>, <function word_sub at 0x000002B5DC7532E0>]
+2024-04-04 16:44:19,667 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|\u060c|¿|\u2025|¡|;|\\\n|—|\uff0c|\\)|\\]|\uff1a|\u3002|\\[|\u3001|\\(', re.IGNORECASE) from: [<function tone_marks at 0x000002B5DC753370>, <function period_comma at 0x000002B5DC7535B0>, <function colon at 0x000002B5DC753640>, <function other_punctuation at 0x000002B5DC7536D0>]>
+2024-04-04 16:44:19,667 - DEBUG - timeout: None
+2024-04-04 16:44:19,667 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-04 16:44:19,678 - DEBUG - pre-processing: <function tone_marks at 0x000002B5DC7529E0>
+2024-04-04 16:44:19,678 - DEBUG - pre-processing: <function end_of_line at 0x000002B5DC7531C0>
+2024-04-04 16:44:19,679 - DEBUG - pre-processing: <function abbreviations at 0x000002B5DC753250>
+2024-04-04 16:44:19,679 - DEBUG - pre-processing: <function word_sub at 0x000002B5DC7532E0>
+2024-04-04 16:44:19,680 - DEBUG - text_parts: ['NARROW ROAD AHEAD a head']
+2024-04-04 16:44:19,680 - DEBUG - text_parts: 1
+2024-04-04 16:44:19,680 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22NARROW%20ROAD%20AHEAD%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-04 16:44:19,685 - DEBUG - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002B5F25567A0>: Failed to resolve 'translate.google.com' ([Errno 11001] getaddrinfo failed)"))
+2024-04-04 16:44:19,686 - INFO - Audio played for detected class: NARROW_ROAD_AHEAD
+2024-04-04 16:44:34,964 - INFO - Audio played for detected class: HUMP_OR_ROUGH_ROAD
+2024-04-04 16:44:40,457 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-04 16:44:43,796 - INFO - Traffic sign detection application finished.
+2024-04-04 16:45:52,560 - INFO - Starting traffic sign detection application...
+2024-04-04 16:46:08,819 - INFO - Loading model...
+2024-04-04 16:46:08,899 - INFO - model loaded successfully.
+2024-04-04 16:46:11,352 - DEBUG - text: 0 a head
+2024-04-04 16:46:11,352 - DEBUG - tld: com
+2024-04-04 16:46:11,352 - DEBUG - lang: en
+2024-04-04 16:46:11,352 - DEBUG - slow: False
+2024-04-04 16:46:11,352 - DEBUG - lang_check: True
+2024-04-04 16:46:11,352 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000002D8B3DC29E0>, <function end_of_line at 0x000002D8B3DC31C0>, <function abbreviations at 0x000002D8B3DC3250>, <function word_sub at 0x000002D8B3DC32E0>]
+2024-04-04 16:46:11,352 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|\\)|…|\u3002|\\[|¿|\\\n|\u2025|\\(|\\]|¡|\u060c|\uff1a|\uff0c|—|\u3001', re.IGNORECASE) from: [<function tone_marks at 0x000002D8B3DC3370>, <function period_comma at 0x000002D8B3DC35B0>, <function colon at 0x000002D8B3DC3640>, <function other_punctuation at 0x000002D8B3DC36D0>]>
+2024-04-04 16:46:11,353 - DEBUG - timeout: None
+2024-04-04 16:46:11,353 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-04 16:46:11,354 - DEBUG - pre-processing: <function tone_marks at 0x000002D8B3DC29E0>
+2024-04-04 16:46:11,354 - DEBUG - pre-processing: <function end_of_line at 0x000002D8B3DC31C0>
+2024-04-04 16:46:11,355 - DEBUG - pre-processing: <function abbreviations at 0x000002D8B3DC3250>
+2024-04-04 16:46:11,356 - DEBUG - pre-processing: <function word_sub at 0x000002D8B3DC32E0>
+2024-04-04 16:46:11,356 - DEBUG - text_parts: ['0 a head']
+2024-04-04 16:46:11,356 - DEBUG - text_parts: 1
+2024-04-04 16:46:11,356 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%220%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-04 16:46:11,360 - DEBUG - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D8C9AFD660>: Failed to resolve 'translate.google.com' ([Errno 11001] getaddrinfo failed)"))
+2024-04-04 16:46:11,361 - INFO - Audio played for detected class: 0
+2024-04-04 16:46:18,077 - INFO - Audio played for detected class: 0
+2024-04-04 16:46:18,177 - INFO - Audio played for detected class: 0
+2024-04-04 16:46:27,132 - INFO - Traffic sign detection application finished.
+2024-04-04 16:47:08,794 - INFO - Starting traffic sign detection application...
+2024-04-04 16:47:24,950 - INFO - Loading model...
+2024-04-04 16:47:25,055 - INFO - model loaded successfully.
+2024-04-04 16:47:36,112 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-04 16:47:45,689 - DEBUG - text: T INTERSECTION a head
+2024-04-04 16:47:45,689 - DEBUG - tld: com
+2024-04-04 16:47:45,689 - DEBUG - lang: en
+2024-04-04 16:47:45,689 - DEBUG - slow: False
+2024-04-04 16:47:45,689 - DEBUG - lang_check: True
+2024-04-04 16:47:45,689 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x00000231A0BC69E0>, <function end_of_line at 0x00000231A0BC71C0>, <function abbreviations at 0x00000231A0BC7250>, <function word_sub at 0x00000231A0BC72E0>]
+2024-04-04 16:47:45,689 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|¡|\\\n|;|¿|\\(|—|\u3001|\u060c|\u3002|\u2025|\\[|\uff0c|\\)|\\]|\uff1a', re.IGNORECASE) from: [<function tone_marks at 0x00000231A0BC7370>, <function period_comma at 0x00000231A0BC75B0>, <function colon at 0x00000231A0BC7640>, <function other_punctuation at 0x00000231A0BC76D0>]>
+2024-04-04 16:47:45,689 - DEBUG - timeout: None
+2024-04-04 16:47:45,689 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-04 16:47:45,690 - DEBUG - pre-processing: <function tone_marks at 0x00000231A0BC69E0>
+2024-04-04 16:47:45,690 - DEBUG - pre-processing: <function end_of_line at 0x00000231A0BC71C0>
+2024-04-04 16:47:45,690 - DEBUG - pre-processing: <function abbreviations at 0x00000231A0BC7250>
+2024-04-04 16:47:45,691 - DEBUG - pre-processing: <function word_sub at 0x00000231A0BC72E0>
+2024-04-04 16:47:45,691 - DEBUG - text_parts: ['T INTERSECTION a head']
+2024-04-04 16:47:45,691 - DEBUG - text_parts: 1
+2024-04-04 16:47:45,691 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22T%20INTERSECTION%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-04 16:47:45,696 - DEBUG - HTTPSConnectionPool(host='translate.google.com', port=443): Max retries exceeded with url: /_/TranslateWebserverUi/data/batchexecute (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000231B69014E0>: Failed to resolve 'translate.google.com' ([Errno 11001] getaddrinfo failed)"))
+2024-04-04 16:47:45,696 - INFO - Audio played for detected class: T_INTERSECTION
+2024-04-04 16:47:58,211 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-04 16:48:02,686 - INFO - Traffic sign detection application finished.
+2024-04-05 15:59:19,693 - INFO - Starting traffic sign detection application...
+2024-04-05 15:59:35,710 - INFO - Loading model...
+2024-04-05 15:59:35,957 - INFO - model loaded successfully.
+2024-04-05 16:05:56,208 - DEBUG - text: LOAD LIMIT a head
+2024-04-05 16:05:56,209 - DEBUG - tld: com
+2024-04-05 16:05:56,210 - DEBUG - lang: en
+2024-04-05 16:05:56,210 - DEBUG - slow: False
+2024-04-05 16:05:56,210 - DEBUG - lang_check: True
+2024-04-05 16:05:56,210 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001FBB08E29E0>, <function end_of_line at 0x000001FBB08E31C0>, <function abbreviations at 0x000001FBB08E3250>, <function word_sub at 0x000001FBB08E32E0>]
+2024-04-05 16:05:56,210 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|—|…|\u060c|\uff0c|\uff1a|\u3002|\\\n|\u2025|\u3001|\\]|\\(|¿|¡|\\)|;|\\[', re.IGNORECASE) from: [<function tone_marks at 0x000001FBB08E3370>, <function period_comma at 0x000001FBB08E35B0>, <function colon at 0x000001FBB08E3640>, <function other_punctuation at 0x000001FBB08E36D0>]>
+2024-04-05 16:05:56,211 - DEBUG - timeout: None
+2024-04-05 16:05:56,212 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:05:56,214 - DEBUG - pre-processing: <function tone_marks at 0x000001FBB08E29E0>
+2024-04-05 16:05:56,220 - DEBUG - pre-processing: <function end_of_line at 0x000001FBB08E31C0>
+2024-04-05 16:05:56,220 - DEBUG - pre-processing: <function abbreviations at 0x000001FBB08E3250>
+2024-04-05 16:05:56,221 - DEBUG - pre-processing: <function word_sub at 0x000001FBB08E32E0>
+2024-04-05 16:05:56,222 - DEBUG - text_parts: ['LOAD LIMIT a head']
+2024-04-05 16:05:56,222 - DEBUG - text_parts: 1
+2024-04-05 16:05:56,222 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22LOAD%20LIMIT%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:05:57,079 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+2024-04-05 16:05:57,079 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:05:57,079 - DEBUG - status-0: 200
+2024-04-05 16:05:57,081 - DEBUG - part-0 written to <_io.BufferedWriter name='LOAD LIMIT.mp3'>
+2024-04-05 16:05:57,081 - DEBUG - part-0 created
+2024-04-05 16:05:57,084 - DEBUG - Saved to LOAD LIMIT.mp3
+2024-04-05 16:05:58,710 - INFO - Audio played for detected class: LOAD_LIMIT
+2024-04-05 16:06:04,742 - DEBUG - text: HORN PROHIBITED a head
+2024-04-05 16:06:04,742 - DEBUG - tld: com
+2024-04-05 16:06:04,742 - DEBUG - lang: en
+2024-04-05 16:06:04,742 - DEBUG - slow: False
+2024-04-05 16:06:04,742 - DEBUG - lang_check: True
+2024-04-05 16:06:04,742 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001FBB08E29E0>, <function end_of_line at 0x000001FBB08E31C0>, <function abbreviations at 0x000001FBB08E3250>, <function word_sub at 0x000001FBB08E32E0>]
+2024-04-05 16:06:04,742 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|—|…|\u060c|\uff0c|\uff1a|\u3002|\\\n|\u2025|\u3001|\\]|\\(|¿|¡|\\)|;|\\[', re.IGNORECASE) from: [<function tone_marks at 0x000001FBB08E3370>, <function period_comma at 0x000001FBB08E35B0>, <function colon at 0x000001FBB08E3640>, <function other_punctuation at 0x000001FBB08E36D0>]>
+2024-04-05 16:06:04,742 - DEBUG - timeout: None
+2024-04-05 16:06:04,742 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:06:04,743 - DEBUG - pre-processing: <function tone_marks at 0x000001FBB08E29E0>
+2024-04-05 16:06:04,743 - DEBUG - pre-processing: <function end_of_line at 0x000001FBB08E31C0>
+2024-04-05 16:06:04,743 - DEBUG - pre-processing: <function abbreviations at 0x000001FBB08E3250>
+2024-04-05 16:06:04,743 - DEBUG - pre-processing: <function word_sub at 0x000001FBB08E32E0>
+2024-04-05 16:06:04,744 - DEBUG - text_parts: ['HORN PROHIBITED a head']
+2024-04-05 16:06:04,744 - DEBUG - text_parts: 1
+2024-04-05 16:06:04,744 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22HORN%20PROHIBITED%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:06:05,640 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '158'}
+2024-04-05 16:06:05,640 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:06:05,640 - DEBUG - status-0: 200
+2024-04-05 16:06:05,641 - DEBUG - part-0 written to <_io.BufferedWriter name='HORN PROHIBITED.mp3'>
+2024-04-05 16:06:05,641 - DEBUG - part-0 created
+2024-04-05 16:06:05,643 - DEBUG - Saved to HORN PROHIBITED.mp3
+2024-04-05 16:06:07,574 - INFO - Audio played for detected class: HORN_PROHIBITED
+2024-04-05 16:06:18,517 - INFO - Audio played for detected class: LOAD_LIMIT
+2024-04-05 16:06:45,667 - DEBUG - text: COMPULSARY MINIMUM SPEED a head
+2024-04-05 16:06:45,667 - DEBUG - tld: com
+2024-04-05 16:06:45,667 - DEBUG - lang: en
+2024-04-05 16:06:45,667 - DEBUG - slow: False
+2024-04-05 16:06:45,667 - DEBUG - lang_check: True
+2024-04-05 16:06:45,667 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001FBB08E29E0>, <function end_of_line at 0x000001FBB08E31C0>, <function abbreviations at 0x000001FBB08E3250>, <function word_sub at 0x000001FBB08E32E0>]
+2024-04-05 16:06:45,667 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|—|…|\u060c|\uff0c|\uff1a|\u3002|\\\n|\u2025|\u3001|\\]|\\(|¿|¡|\\)|;|\\[', re.IGNORECASE) from: [<function tone_marks at 0x000001FBB08E3370>, <function period_comma at 0x000001FBB08E35B0>, <function colon at 0x000001FBB08E3640>, <function other_punctuation at 0x000001FBB08E36D0>]>
+2024-04-05 16:06:45,667 - DEBUG - timeout: None
+2024-04-05 16:06:45,667 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:06:45,668 - DEBUG - pre-processing: <function tone_marks at 0x000001FBB08E29E0>
+2024-04-05 16:06:45,668 - DEBUG - pre-processing: <function end_of_line at 0x000001FBB08E31C0>
+2024-04-05 16:06:45,668 - DEBUG - pre-processing: <function abbreviations at 0x000001FBB08E3250>
+2024-04-05 16:06:45,668 - DEBUG - pre-processing: <function word_sub at 0x000001FBB08E32E0>
+2024-04-05 16:06:45,669 - DEBUG - text_parts: ['COMPULSARY MINIMUM SPEED a head']
+2024-04-05 16:06:45,669 - DEBUG - text_parts: 1
+2024-04-05 16:06:45,669 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20MINIMUM%20SPEED%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:06:46,968 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '169'}
+2024-04-05 16:06:46,968 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:06:46,968 - DEBUG - status-0: 200
+2024-04-05 16:06:46,968 - DEBUG - part-0 written to <_io.BufferedWriter name='COMPULSARY MINIMUM SPEED.mp3'>
+2024-04-05 16:06:46,968 - DEBUG - part-0 created
+2024-04-05 16:06:46,970 - DEBUG - Saved to COMPULSARY MINIMUM SPEED.mp3
+2024-04-05 16:06:49,707 - INFO - Audio played for detected class: COMPULSARY_MINIMUM_SPEED
+2024-04-05 16:06:53,607 - INFO - Audio played for detected class: LOAD_LIMIT
+2024-04-05 16:07:04,792 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-05 16:07:50,424 - INFO - Traffic sign detection application finished.
+2024-04-05 16:16:55,730 - INFO - Starting traffic sign detection application...
+2024-04-05 16:17:12,273 - INFO - Loading model...
+2024-04-05 16:17:12,563 - INFO - model loaded successfully.
+2024-04-05 16:17:43,230 - INFO - Traffic sign detection application finished.
+2024-04-05 16:18:42,748 - INFO - Starting traffic sign detection application...
+2024-04-05 16:18:58,043 - INFO - Loading model...
+2024-04-05 16:18:58,173 - INFO - model loaded successfully.
+2024-04-05 16:19:03,475 - DEBUG - text: speed limit a head
+2024-04-05 16:19:03,475 - DEBUG - tld: com
+2024-04-05 16:19:03,475 - DEBUG - lang: en
+2024-04-05 16:19:03,475 - DEBUG - slow: False
+2024-04-05 16:19:03,475 - DEBUG - lang_check: True
+2024-04-05 16:19:03,475 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001AB518E29E0>, <function end_of_line at 0x000001AB518E31C0>, <function abbreviations at 0x000001AB518E3250>, <function word_sub at 0x000001AB518E32E0>]
+2024-04-05 16:19:03,476 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|…|—|\\)|\\(|\\[|\u2025|\\]|;|¡|\u3001|\u060c|\u3002|\uff0c|¿|\uff1a', re.IGNORECASE) from: [<function tone_marks at 0x000001AB518E3370>, <function period_comma at 0x000001AB518E35B0>, <function colon at 0x000001AB518E3640>, <function other_punctuation at 0x000001AB518E36D0>]>
+2024-04-05 16:19:03,476 - DEBUG - timeout: None
+2024-04-05 16:19:03,476 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:19:03,476 - DEBUG - pre-processing: <function tone_marks at 0x000001AB518E29E0>
+2024-04-05 16:19:03,477 - DEBUG - pre-processing: <function end_of_line at 0x000001AB518E31C0>
+2024-04-05 16:19:03,477 - DEBUG - pre-processing: <function abbreviations at 0x000001AB518E3250>
+2024-04-05 16:19:03,478 - DEBUG - pre-processing: <function word_sub at 0x000001AB518E32E0>
+2024-04-05 16:19:03,478 - DEBUG - text_parts: ['speed limit a head']
+2024-04-05 16:19:03,479 - DEBUG - text_parts: 1
+2024-04-05 16:19:03,479 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22speed%20limit%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:19:04,258 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '154'}
+2024-04-05 16:19:04,259 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:19:04,259 - DEBUG - status-0: 200
+2024-04-05 16:19:04,259 - DEBUG - part-0 written to <_io.BufferedWriter name='speed limit.mp3'>
+2024-04-05 16:19:04,259 - DEBUG - part-0 created
+2024-04-05 16:19:04,261 - DEBUG - Saved to speed limit.mp3
+2024-04-05 16:19:05,985 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:19:17,238 - INFO - Audio played for detected class: HORN_PROHIBITED
+2024-04-05 16:19:23,442 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-05 16:19:25,453 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:19:30,521 - INFO - Traffic sign detection application finished.
+2024-04-05 16:21:35,505 - INFO - Starting traffic sign detection application...
+2024-04-05 16:21:51,269 - INFO - Loading model...
+2024-04-05 16:21:51,401 - INFO - model loaded successfully.
+2024-04-05 16:22:01,330 - INFO - Audio played for detected class: COMPULSARY_MINIMUM_SPEED
+2024-04-05 16:22:10,748 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:22:17,724 - INFO - Audio played for detected class: HORN_PROHIBITED
+2024-04-05 16:22:21,660 - INFO - Traffic sign detection application finished.
+2024-04-05 16:26:19,461 - INFO - Starting traffic sign detection application...
+2024-04-05 16:26:35,099 - INFO - Loading model...
+2024-04-05 16:26:35,266 - INFO - model loaded successfully.
+2024-04-05 16:26:45,980 - DEBUG - text: NO PARKING a head
+2024-04-05 16:26:45,981 - DEBUG - tld: com
+2024-04-05 16:26:45,981 - DEBUG - lang: en
+2024-04-05 16:26:45,981 - DEBUG - slow: False
+2024-04-05 16:26:45,981 - DEBUG - lang_check: True
+2024-04-05 16:26:45,981 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x00000253657169E0>, <function end_of_line at 0x00000253657171C0>, <function abbreviations at 0x0000025365717250>, <function word_sub at 0x00000253657172E0>]
+2024-04-05 16:26:45,981 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\uff0c|\uff1a|\u3002|\u2025|¿|\\(|\\[|\\)|;|¡|\\\n|\u060c|\u3001|—|\\]|…', re.IGNORECASE) from: [<function tone_marks at 0x0000025365717370>, <function period_comma at 0x00000253657175B0>, <function colon at 0x0000025365717640>, <function other_punctuation at 0x00000253657176D0>]>
+2024-04-05 16:26:45,981 - DEBUG - timeout: None
+2024-04-05 16:26:45,981 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:26:45,982 - DEBUG - pre-processing: <function tone_marks at 0x00000253657169E0>
+2024-04-05 16:26:45,982 - DEBUG - pre-processing: <function end_of_line at 0x00000253657171C0>
+2024-04-05 16:26:45,982 - DEBUG - pre-processing: <function abbreviations at 0x0000025365717250>
+2024-04-05 16:26:45,983 - DEBUG - pre-processing: <function word_sub at 0x00000253657172E0>
+2024-04-05 16:26:45,984 - DEBUG - text_parts: ['NO PARKING a head']
+2024-04-05 16:26:45,984 - DEBUG - text_parts: 1
+2024-04-05 16:26:45,984 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22NO%20PARKING%20a%20head%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:26:46,940 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+2024-04-05 16:26:46,941 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:26:46,941 - DEBUG - status-0: 200
+2024-04-05 16:26:46,941 - DEBUG - part-0 written to <_io.BufferedWriter name='NO PARKING.mp3'>
+2024-04-05 16:26:46,941 - DEBUG - part-0 created
+2024-04-05 16:26:46,943 - DEBUG - Saved to NO PARKING.mp3
+2024-04-05 16:26:48,572 - INFO - Audio played for detected class: NO_PARKING
+2024-04-05 16:26:54,597 - INFO - Traffic sign detection application finished.
+2024-04-05 16:27:11,100 - INFO - Starting traffic sign detection application...
+2024-04-05 16:27:26,641 - INFO - Loading model...
+2024-04-05 16:27:26,769 - INFO - model loaded successfully.
+2024-04-05 16:27:31,911 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:27:33,952 - INFO - Audio played for detected class: FALLING_ROCKS
+2024-04-05 16:27:36,026 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:27:39,713 - INFO - Audio played for detected class: FALLING_ROCKS
+2024-04-05 16:27:41,772 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:27:43,697 - INFO - Audio played for detected class: NO_PARKING
+2024-04-05 16:27:45,718 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:28:08,600 - INFO - Audio played for detected class: HORN_PROHIBITED
+2024-04-05 16:28:12,351 - INFO - Traffic sign detection application finished.
+2024-04-05 16:33:19,964 - INFO - Starting traffic sign detection application...
+2024-04-05 16:33:35,612 - INFO - Loading model...
+2024-04-05 16:33:35,816 - INFO - model loaded successfully.
+2024-04-05 16:33:59,647 - DEBUG - text: COMPULSARY KEEP LEFT ahead
+2024-04-05 16:33:59,648 - DEBUG - tld: com
+2024-04-05 16:33:59,648 - DEBUG - lang: en
+2024-04-05 16:33:59,648 - DEBUG - slow: False
+2024-04-05 16:33:59,648 - DEBUG - lang_check: True
+2024-04-05 16:33:59,648 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000026B72BDE9E0>, <function end_of_line at 0x0000026B72BDF1C0>, <function abbreviations at 0x0000026B72BDF250>, <function word_sub at 0x0000026B72BDF2E0>]
+2024-04-05 16:33:59,648 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|\uff0c|;|\\)|\u3002|¡|¿|\u2025|\uff1a|\\[|\\]|—|\u3001|\\(|…|\u060c', re.IGNORECASE) from: [<function tone_marks at 0x0000026B72BDF370>, <function period_comma at 0x0000026B72BDF5B0>, <function colon at 0x0000026B72BDF640>, <function other_punctuation at 0x0000026B72BDF6D0>]>
+2024-04-05 16:33:59,649 - DEBUG - timeout: None
+2024-04-05 16:33:59,649 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:33:59,649 - DEBUG - pre-processing: <function tone_marks at 0x0000026B72BDE9E0>
+2024-04-05 16:33:59,650 - DEBUG - pre-processing: <function end_of_line at 0x0000026B72BDF1C0>
+2024-04-05 16:33:59,650 - DEBUG - pre-processing: <function abbreviations at 0x0000026B72BDF250>
+2024-04-05 16:33:59,651 - DEBUG - pre-processing: <function word_sub at 0x0000026B72BDF2E0>
+2024-04-05 16:33:59,651 - DEBUG - text_parts: ['COMPULSARY KEEP LEFT ahead']
+2024-04-05 16:33:59,651 - DEBUG - text_parts: 1
+2024-04-05 16:33:59,651 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20KEEP%20LEFT%20ahead%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:34:00,494 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '162'}
+2024-04-05 16:34:00,494 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:34:00,494 - DEBUG - status-0: 200
+2024-04-05 16:34:00,534 - DEBUG - part-0 written to <_io.BufferedWriter name='./audio_files\\COMPULSARY KEEP LEFT.mp3'>
+2024-04-05 16:34:00,535 - DEBUG - part-0 created
+2024-04-05 16:34:00,537 - DEBUG - Saved to ./audio_files\COMPULSARY KEEP LEFT.mp3
+2024-04-05 16:34:02,866 - INFO - Audio played for detected class: COMPULSARY_KEEP_LEFT
+2024-04-05 16:34:04,822 - DEBUG - text: COMPULSARY MINIMUM SPEED ahead
+2024-04-05 16:34:04,822 - DEBUG - tld: com
+2024-04-05 16:34:04,822 - DEBUG - lang: en
+2024-04-05 16:34:04,822 - DEBUG - slow: False
+2024-04-05 16:34:04,822 - DEBUG - lang_check: True
+2024-04-05 16:34:04,822 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000026B72BDE9E0>, <function end_of_line at 0x0000026B72BDF1C0>, <function abbreviations at 0x0000026B72BDF250>, <function word_sub at 0x0000026B72BDF2E0>]
+2024-04-05 16:34:04,822 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|\uff0c|;|\\)|\u3002|¡|¿|\u2025|\uff1a|\\[|\\]|—|\u3001|\\(|…|\u060c', re.IGNORECASE) from: [<function tone_marks at 0x0000026B72BDF370>, <function period_comma at 0x0000026B72BDF5B0>, <function colon at 0x0000026B72BDF640>, <function other_punctuation at 0x0000026B72BDF6D0>]>
+2024-04-05 16:34:04,822 - DEBUG - timeout: None
+2024-04-05 16:34:04,823 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:34:04,823 - DEBUG - pre-processing: <function tone_marks at 0x0000026B72BDE9E0>
+2024-04-05 16:34:04,823 - DEBUG - pre-processing: <function end_of_line at 0x0000026B72BDF1C0>
+2024-04-05 16:34:04,823 - DEBUG - pre-processing: <function abbreviations at 0x0000026B72BDF250>
+2024-04-05 16:34:04,824 - DEBUG - pre-processing: <function word_sub at 0x0000026B72BDF2E0>
+2024-04-05 16:34:04,824 - DEBUG - text_parts: ['COMPULSARY MINIMUM SPEED ahead']
+2024-04-05 16:34:04,824 - DEBUG - text_parts: 1
+2024-04-05 16:34:04,824 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20MINIMUM%20SPEED%20ahead%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:34:05,888 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+2024-04-05 16:34:05,888 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:34:05,888 - DEBUG - status-0: 200
+2024-04-05 16:34:05,889 - DEBUG - part-0 written to <_io.BufferedWriter name='./audio_files\\COMPULSARY MINIMUM SPEED.mp3'>
+2024-04-05 16:34:05,889 - DEBUG - part-0 created
+2024-04-05 16:34:05,891 - DEBUG - Saved to ./audio_files\COMPULSARY MINIMUM SPEED.mp3
+2024-04-05 16:34:08,417 - INFO - Audio played for detected class: COMPULSARY_MINIMUM_SPEED
+2024-04-05 16:34:08,750 - DEBUG - text: speed limit ahead
+2024-04-05 16:34:08,751 - DEBUG - tld: com
+2024-04-05 16:34:08,751 - DEBUG - lang: en
+2024-04-05 16:34:08,751 - DEBUG - slow: False
+2024-04-05 16:34:08,751 - DEBUG - lang_check: True
+2024-04-05 16:34:08,751 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x0000026B72BDE9E0>, <function end_of_line at 0x0000026B72BDF1C0>, <function abbreviations at 0x0000026B72BDF250>, <function word_sub at 0x0000026B72BDF2E0>]
+2024-04-05 16:34:08,751 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|\uff0c|;|\\)|\u3002|¡|¿|\u2025|\uff1a|\\[|\\]|—|\u3001|\\(|…|\u060c', re.IGNORECASE) from: [<function tone_marks at 0x0000026B72BDF370>, <function period_comma at 0x0000026B72BDF5B0>, <function colon at 0x0000026B72BDF640>, <function other_punctuation at 0x0000026B72BDF6D0>]>
+2024-04-05 16:34:08,751 - DEBUG - timeout: None
+2024-04-05 16:34:08,751 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:34:08,752 - DEBUG - pre-processing: <function tone_marks at 0x0000026B72BDE9E0>
+2024-04-05 16:34:08,752 - DEBUG - pre-processing: <function end_of_line at 0x0000026B72BDF1C0>
+2024-04-05 16:34:08,753 - DEBUG - pre-processing: <function abbreviations at 0x0000026B72BDF250>
+2024-04-05 16:34:08,753 - DEBUG - pre-processing: <function word_sub at 0x0000026B72BDF2E0>
+2024-04-05 16:34:08,753 - DEBUG - text_parts: ['speed limit ahead']
+2024-04-05 16:34:08,753 - DEBUG - text_parts: 1
+2024-04-05 16:34:08,753 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22speed%20limit%20ahead%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:34:09,640 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '151'}
+2024-04-05 16:34:09,640 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:34:09,640 - DEBUG - status-0: 200
+2024-04-05 16:34:09,641 - DEBUG - part-0 written to <_io.BufferedWriter name='./audio_files\\speed limit.mp3'>
+2024-04-05 16:34:09,641 - DEBUG - part-0 created
+2024-04-05 16:34:09,642 - DEBUG - Saved to ./audio_files\speed limit.mp3
+2024-04-05 16:34:11,377 - INFO - Audio played for detected class: speed_limit
+2024-04-05 16:34:15,027 - INFO - Traffic sign detection application finished.
+2024-04-05 16:34:58,174 - INFO - Starting traffic sign detection application...
+2024-04-05 16:35:14,010 - INFO - Loading model...
+2024-04-05 16:35:14,212 - INFO - model loaded successfully.
+2024-04-05 16:35:20,147 - DEBUG - text: COMPULSARY TURN RIGHT AHEAD ahead
+2024-04-05 16:35:20,147 - DEBUG - tld: com
+2024-04-05 16:35:20,147 - DEBUG - lang: en
+2024-04-05 16:35:20,147 - DEBUG - slow: False
+2024-04-05 16:35:20,147 - DEBUG - lang_check: True
+2024-04-05 16:35:20,147 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001E89B8FAA70>, <function end_of_line at 0x000001E89B8FB250>, <function abbreviations at 0x000001E89B8FB2E0>, <function word_sub at 0x000001E89B8FB370>]
+2024-04-05 16:35:20,147 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|;|\\(|\u060c|\u2025|\\\n|¿|\u3002|\uff1a|¡|\uff0c|—|…|\\[|\u3001|\\)', re.IGNORECASE) from: [<function tone_marks at 0x000001E89B8FB400>, <function period_comma at 0x000001E89B8FB640>, <function colon at 0x000001E89B8FB6D0>, <function other_punctuation at 0x000001E89B8FB760>]>
+2024-04-05 16:35:20,147 - DEBUG - timeout: None
+2024-04-05 16:35:20,147 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:35:20,148 - DEBUG - pre-processing: <function tone_marks at 0x000001E89B8FAA70>
+2024-04-05 16:35:20,149 - DEBUG - pre-processing: <function end_of_line at 0x000001E89B8FB250>
+2024-04-05 16:35:20,149 - DEBUG - pre-processing: <function abbreviations at 0x000001E89B8FB2E0>
+2024-04-05 16:35:20,150 - DEBUG - pre-processing: <function word_sub at 0x000001E89B8FB370>
+2024-04-05 16:35:20,150 - DEBUG - text_parts: ['COMPULSARY TURN RIGHT AHEAD ahead']
+2024-04-05 16:35:20,150 - DEBUG - text_parts: 1
+2024-04-05 16:35:20,150 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22COMPULSARY%20TURN%20RIGHT%20AHEAD%20ahead%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:35:21,177 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '171'}
+2024-04-05 16:35:21,177 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:35:21,178 - DEBUG - status-0: 200
+2024-04-05 16:35:21,178 - DEBUG - part-0 written to <_io.BufferedWriter name='./audio_files\\COMPULSARY TURN RIGHT AHEAD.mp3'>
+2024-04-05 16:35:21,178 - DEBUG - part-0 created
+2024-04-05 16:35:21,180 - DEBUG - Saved to ./audio_files\COMPULSARY TURN RIGHT AHEAD.mp3
+2024-04-05 16:35:24,108 - INFO - Audio played for detected class: COMPULSARY_TURN_RIGHT_AHEAD
+2024-04-05 16:35:27,338 - DEBUG - text: SCHOOL AHEAD ahead
+2024-04-05 16:35:27,338 - DEBUG - tld: com
+2024-04-05 16:35:27,338 - DEBUG - lang: en
+2024-04-05 16:35:27,338 - DEBUG - slow: False
+2024-04-05 16:35:27,338 - DEBUG - lang_check: True
+2024-04-05 16:35:27,339 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000001E89B8FAA70>, <function end_of_line at 0x000001E89B8FB250>, <function abbreviations at 0x000001E89B8FB2E0>, <function word_sub at 0x000001E89B8FB370>]
+2024-04-05 16:35:27,339 - DEBUG - tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|;|\\(|\u060c|\u2025|\\\n|¿|\u3002|\uff1a|¡|\uff0c|—|…|\\[|\u3001|\\)', re.IGNORECASE) from: [<function tone_marks at 0x000001E89B8FB400>, <function period_comma at 0x000001E89B8FB640>, <function colon at 0x000001E89B8FB6D0>, <function other_punctuation at 0x000001E89B8FB760>]>
+2024-04-05 16:35:27,339 - DEBUG - timeout: None
+2024-04-05 16:35:27,339 - DEBUG - langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2024-04-05 16:35:27,339 - DEBUG - pre-processing: <function tone_marks at 0x000001E89B8FAA70>
+2024-04-05 16:35:27,339 - DEBUG - pre-processing: <function end_of_line at 0x000001E89B8FB250>
+2024-04-05 16:35:27,339 - DEBUG - pre-processing: <function abbreviations at 0x000001E89B8FB2E0>
+2024-04-05 16:35:27,339 - DEBUG - pre-processing: <function word_sub at 0x000001E89B8FB370>
+2024-04-05 16:35:27,339 - DEBUG - text_parts: ['SCHOOL AHEAD ahead']
+2024-04-05 16:35:27,339 - DEBUG - text_parts: 1
+2024-04-05 16:35:27,339 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22SCHOOL%20AHEAD%20ahead%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2024-04-05 16:35:29,137 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+2024-04-05 16:35:29,137 - DEBUG - url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2024-04-05 16:35:29,137 - DEBUG - status-0: 200
+2024-04-05 16:35:29,138 - DEBUG - part-0 written to <_io.BufferedWriter name='./audio_files\\SCHOOL AHEAD.mp3'>
+2024-04-05 16:35:29,138 - DEBUG - part-0 created
+2024-04-05 16:35:29,140 - DEBUG - Saved to ./audio_files\SCHOOL AHEAD.mp3
+2024-04-05 16:35:30,861 - INFO - Audio played for detected class: SCHOOL_AHEAD
+2024-04-05 16:35:34,666 - INFO - Audio played for detected class: COMPULSARY_MINIMUM_SPEED
+2024-04-05 16:35:38,293 - INFO - Traffic sign detection application finished.

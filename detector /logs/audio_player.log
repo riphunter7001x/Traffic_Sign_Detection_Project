@@ -1,0 +1,42 @@
+2024-04-02 21:45:41,434 - INFO - Starting traffic sign detection application...
+2024-04-02 21:46:04,268 - INFO - Loading model...
+2024-04-02 21:46:04,523 - INFO - model loaded successfully.
+2024-04-02 21:46:10,740 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:10,740 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:11,115 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:46:11,115 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:46:11,923 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:11,966 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:12,733 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:46:12,733 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:46:15,046 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:15,046 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:15,424 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:46:15,424 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:46:22,801 - ERROR - Audio file not found for class: COMPULSARY AHEAD OR TURN RIGHT
+2024-04-02 21:46:22,801 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-02 21:46:25,099 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:25,099 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:25,502 - ERROR - Audio file not found for class: COMPULSARY AHEAD OR TURN RIGHT
+2024-04-02 21:46:25,502 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-02 21:46:25,877 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:25,877 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:26,257 - ERROR - Audio file not found for class: COMPULSARY AHEAD OR TURN RIGHT
+2024-04-02 21:46:26,257 - INFO - Audio played for detected class: COMPULSARY_AHEAD_OR_TURN_RIGHT
+2024-04-02 21:46:28,956 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:46:28,956 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:46:31,028 - INFO - Traffic sign detection application finished.
+2024-04-02 21:48:41,492 - INFO - Starting traffic sign detection application...
+2024-04-02 21:49:06,091 - INFO - Loading model...
+2024-04-02 21:49:06,319 - INFO - model loaded successfully.
+2024-04-02 21:49:11,828 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:49:11,828 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:49:22,589 - ERROR - Audio file not found for class: ROUNDABOUT
+2024-04-02 21:49:22,589 - INFO - Audio played for detected class: ROUNDABOUT
+2024-04-02 21:49:24,523 - ERROR - Audio file not found for class: PASS EITHER SIDE
+2024-04-02 21:49:24,523 - INFO - Audio played for detected class: PASS_EITHER_SIDE
+2024-04-02 21:49:32,772 - ERROR - Audio file not found for class: GAP IN MEDIAN
+2024-04-02 21:49:32,773 - INFO - Audio played for detected class: GAP_IN_MEDIAN
+2024-04-02 21:49:42,917 - ERROR - Audio file not found for class: TRAFFIC SIGNAL
+2024-04-02 21:49:42,917 - INFO - Audio played for detected class: TRAFFIC_SIGNAL
+2024-04-02 21:51:44,450 - INFO - Traffic sign detection application finished.
